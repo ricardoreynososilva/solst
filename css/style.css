@@ -86,6 +86,8 @@ p{
   padding: auto;
   
 
+ 
+
 }
 /*.typed{
   border: 3px solid rgb(140, 247, 1);
@@ -974,12 +976,12 @@ body.nav-active .nav__list-item:nth-child(10) {
   z-index: 1;
   
 }
-@media screen and (min-width:300px ) and (max-width: 991px)   {
+@media screen and (min-width:200px  ) and (max-width: 991px)   {
   .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title{
     font-size: 12px;
   }
 }
-@media screen and (min-width:300px ) and (max-width: 991px)   {
+@media screen and (min-width:200px  ) and (max-width: 991px)   {
   .swiper-container-wrapper--timeline .swiper-slide {
     display: flex;
     align-items:column;
@@ -1030,84 +1032,6 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 }
 /*fin media query timeline*/
-
-/*mediaquery primer contenedor*/
-
-@media screen and (min-width:200px ) and (max-width: 991px){
-  .contenedor-1 {
-    
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: stretch;
-    flex-direction: column;
-}
-}
-
-
-@media screen and (min-width:200px ) and (max-width: 991px){
-  .cd-header{
-    width: auto;
- 
-}
-}
-@media screen and (min-width:200px ) and (max-width: 991px){
-  .contenedorTyped{
-
-    padding: 1em;
-    
-  
-  }
-}
-
-@media screen and (min-width:200px ) and (max-width: 991px){
-  .flex-contenedor {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    align-items: center;
-    /* border: 1px solid rgb(8, 238, 238); */
-    text-align: center;
-    justify-content: space-around;
-
-    align-content: center;
-  }
-}
-
-@media screen and (min-width:200px ) and (max-width: 991px){
-  .contenedorTexto {
-    width:auto;
-    padding: 1em;
-    /* border: 2px solid #eeea06; */
-  }
-  
-  
-}
-
-@media screen and (min-width:200px ) and (max-width: 991px){
-  .wrapper {
-    width: 100%;
-    height: 100%;
-    width: 400px;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-    padding: 1em;
-    /* border: 3px solid #04f804; */
-  }
-  
-  
-}
-
-
-
-
-/**/
 
 
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch .switch-title:after {
@@ -1172,7 +1096,6 @@ body.nav-active .nav__list-item:nth-child(10) {
   position: fixed;
   z-index: 99999;
 }
-
 
 .loader,
 .loader:before,
