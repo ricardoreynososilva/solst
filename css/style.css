@@ -1286,9 +1286,22 @@ body.nav-active .nav__list-item:nth-child(10) {
   display: flex;
   background-color: #031625;
 }
+
 #banners:hover .tl-item {
   width: 23.3333%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tl-item {
   transform: translate3d(0, 0, 0);
@@ -1310,7 +1323,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   height: 100%;
 }
 .tl-item:after {
-  background: rgba(37, 19, 3, 0.85);
+  background: radial-gradient(#a23982b9,#1f1013);
   opacity: 1;
   transition: opacity 0.5s ease;
 }
@@ -1371,6 +1384,12 @@ body.nav-active .nav__list-item:nth-child(10) {
   
   font-size: 1.728rem;
   line-height: 0;
+}
+@media screen and (min-width:200px ) and (max-width: 778px){
+	.tl-year h3 {
+  
+   font-size: 30px;
+}
 }
 
 .tl-bg {
