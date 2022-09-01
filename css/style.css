@@ -1217,7 +1217,7 @@ width:10px;
 height:5px;
 margin-left:-5px;
 display:inline-block;
-background-color:#bd0000;
+
 }
 
 .sec-title h2{
@@ -1258,10 +1258,10 @@ color:#ffffff;
 background-color:#ff9600;
 }
 
-.sec-title.light .separator:before,
+/*.sec-title.light .separator:before,
 .sec-title.light .separator:after{
 background-color:#ffffff;
-}
+}*/
 
 .team-section{
 position:relative;
@@ -1313,7 +1313,7 @@ top:0px;
 left:70px;
 bottom:0px;
 border-radius:10px;
-background-color:#f5f5f5;
+/*background-color:#f5f5f5;*/
 -webkit-transition:all 600ms ease;
 -moz-transition:all 600ms ease;
 -ms-transition:all 600ms ease;
